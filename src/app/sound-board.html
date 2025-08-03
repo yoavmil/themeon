@@ -2,6 +2,7 @@
   <h2 class="sound-board-title">Theme-ON!</h2>
   <div class="sound-board">
     <button *ngFor="let sound of sounds; let i = index" (click)="toggleSound(i)">
+      <span class="sound-icon">{{ sound.icon }}</span>
       {{ sound.label }}
     </button>
   </div>

@@ -1,3 +1,9 @@
+/* ...existing code... */
+.sound-icon {
+  font-size: 2rem;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
 /* Container for title and board */
 .sound-board-container {
   display: flex;
