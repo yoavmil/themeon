@@ -1,9 +1,10 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { SoundBoardComponent } from './sound-board';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, SoundBoardComponent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

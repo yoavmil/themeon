@@ -1,0 +1,8 @@
+<div class="sound-board-container">
+  <h2 class="sound-board-title">Theme-ON!</h2>
+  <div class="sound-board">
+    <button *ngFor="let sound of sounds; let i = index" (click)="toggleSound(i)">
+      {{ sound.label }}
+    </button>
+  </div>
+</div>
